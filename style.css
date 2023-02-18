@@ -221,8 +221,8 @@ th{
 table {
     border-collapse: collapse;
     border-radius: 10px;
-    border-style: hidden; 
-    box-shadow: 0 0 0 1px #808080;
+    border-style: hidden; /* hide standard table (collapsed) border */
+    box-shadow: 0 0 0 1px #808080; /* this draws the table border  */ 
     border-spacing: 10px;
     
 }
@@ -246,3 +246,4 @@ td:last-child{
 th:last-child{
     text-align: start;
 }
+    
